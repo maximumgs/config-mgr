@@ -12,6 +12,6 @@ Get a hash of all configuration variables
 
 	config_mgr.get_vars
 
-Get a hash of all configuration variables
+Get the specified configuration variable
 
 	config_mgr.get_var(:config_var_name)

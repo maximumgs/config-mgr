@@ -6,7 +6,7 @@ The is a general purpose class, used to read a basic configuration file.
 
 Initialize the Configuration Manager
 
-    config_mgr = ConfigMgr.new("<config_file_path>")
+    config_mgr = ConfigMgr.new("config_file_path")
 
 Get a hash of all configuration variables
 
@@ -14,4 +14,4 @@ Get a hash of all configuration variables
 
 Get a hash of all configuration variables
 
-	config_mgr.get_var("debug_mode")
+	config_mgr.get_var(:config_var_name)
